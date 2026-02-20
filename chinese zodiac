@@ -1,0 +1,43 @@
+int main() {
+   int a;
+ scanf("%d",&a);
+ switch (a){
+     case 2000:
+     printf("dragon");
+     break;
+     case 2001:
+     printf("snake");
+     break;
+     case 2002:
+     printf("horse");
+     break;
+     case 2003:
+     printf("sheep");
+     break;
+     case 2004:
+     printf("monkey");
+     break;
+     case 2005:
+     printf("rooster");
+     break;
+     case 2006:
+     printf("Dog");
+     break;
+     case 2007:
+     printf("Pig");
+     break;
+     case 2008:
+     printf("Rat");
+     break;
+     case 2009:
+     printf("Ox");
+     break;
+     case 2010:
+     printf("Tiger");
+     break;
+     case 2011:
+     printf("hare");
+     break;
+ }
+ return 0;
+}
