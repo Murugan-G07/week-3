@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+
+int main() {
+   int a;
+ scanf("%d",&a);
+ switch (a){
+     case 3:
+     printf("triangle");
+     break;
+     case 4:
+     printf("square or rectangle");
+     break;
+     case 5:
+     printf("pentagon");
+     break;
+     case 6:
+     printf("hexagon");
+     break;
+     case 7:
+     printf("heptagon");
+     break;
+     case 8:
+     printf("octagon");
+     break;
+     case 9:
+     printf("nanogon");
+     break;
+     case 10:
+     printf("decagon");
+     break;
+     default:
+     printf("The number of sides is not supported");
+ }
+ return 0;
+}
